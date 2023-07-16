@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <!-- nav starts -->
+  <nav id="top">
+    <div class="head">
+      <section class="inhead ">
+        <div class="in1 hhover">
+          <a href=""><i style=" color: aliceblue;font-size: 24px;margin: top 5px;" class="fa-solid fa-bars"></i></a>
+        </div>
+        <div class="in2 hhover"><a href=""><img src="./assets/jio.svg" alt=""></a></div>
+        <div class="in3 hhover"><button><i class="fa-solid fa-location-dot" style="font-size: 16px;"></i>
+            <span class="inn">Deliver to</span><span class="innn">Mumbai 400020</span></button> </div>
+      </section>
+      <section class="outhead">
+        <div id="out1">
+          <div class="o1"><a href=""><img src="./assets/in.svg" alt=""></a></div>
+          <div class="o2"><input type="text" placeholder="Search JioMart"></div>
+          <div class="o1"><a href=""><i style="font-size: 24px;color: rgb(108, 101, 101);"
+                class="fa-solid fa-list"></i></a></div>
+        </div>
+        <div class="out2 hhover"><i style="font-size: 24px;" class="fa-solid fa-cart-shopping"></i></div>
+        <div class="out3 hhover">
+          <span class="ot1"><i class="fa-solid fa-user"></i></span><span class="ot2">Sign In</span>
+        </div>
+      </section>
+    </div>
+
+    <div class="top1">
+      <ul class="list">
+        <li class="sg">Groceries
+          <ul id="sg">
+            <li>Fruits & Vegetables</li>
+            <li>Dairy & Bakery</li>
+            <li>Staples</li>
+            <li>Snacks & Branded Foods</li>
+            <li>Beverages</li>
+            <li>Personal Care</li>
+            <li>Home Care</li>
+            <li>Apparel</li>
+            <li>Home & Kitchen</li>
+            <li>Mom & Baby Care</li>
+            <li>Books</li>
+          </ul>
+        </li>
+        <li class="sg">Premium Fruits
+          <ul id="sg">
+            <li>Apples & Pears</li>
+            <li>Avocado, Peach, Plum</li>
+            <li>Banana, Melons & Coconut</li>
+            <li>Cherries, Berries & Exotic Fruits</li>
+            <li>Citrus, Mango & Grapes</li>
+            <li>Dates</li>
+            <li>Pomegranate, Papaya & Pineapple</li>
+            <li>Seasonal & Minor Fruits</li>
+          </ul>
+        </li>
+        <li class="sg">Home & Kitchen
+          <ul id="sg">
+            <li>Bathroom & Laundry Accessories</li>
+            <li>Disposals</li>
+            <li>Furnishing</li>
+            <li>Furniture</li>
+            <li>Garden & Outdoor</li>
+            <li>Home Decor</li>
+            <li>Kitchenware</li>
+            <li>Prayer & Spirtual Needs</li>
+            <li>Tableware</li>
+          </ul>
+        </li>
+        <li class="sg">Fashion
+          <ul id="sg">
+            <li>Men</li>
+            <li>Women</li>
+            <li>Boys</li>
+            <li>Girls</li>
+            <li>Junior Boys</li>
+            <li>Junior Girls</li>
+            <li>Infants</li>
+            <li>Toys & Baby care</li>
+            <li>Tech</li>
+          </ul>
+        </li>
+        <li class="sg">Electronics
+          <ul id="sg">
+            <li>Mobile & Tablet</li>
+            <li>TV & Speakers</li>
+            <li>Home Appliances</li>
+            <li>Computers</li>
+            <li>Cameras</li>
+            <li>Kitchen Appliances</li>
+            <li>Personal Care & Grooming</li>
+          </ul>
+        </li>
+        <li class="sg">Beauty
+          <ul id="sg">
+            <li>Beauty</li>
+            <li>Hair</li>
+            <li>Skin Care</li>
+            <li>Fragrances</li>
+            <li>Personal Care</li>
+            <li>Mom & Baby</li>
+          </ul>
+        </li>
+        <li class="sg">Home Improvement
+          <ul id="sg">
+            <li>Auto Care</li>
+            <li>Building Suppplies & Measuring Tools</li>
+            <li>Carpentry</li>
+            <li>Electric</li>
+            <li>Hardware & Plumbing</li>
+            <li>Home Safety & Automation</li>
+
+          </ul>
+        </li>
+        <li class="sg">Sports, Toys & Luggage
+          <ul id="sg">
+            <li>Toys & Game</li>
+            <li>Bags & TravelnLuggage</li>
+            <li>Sporting Goods</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- nav ends -->
+
+  <!-- middle page starts -->
+
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4"
+        aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="5"
+        aria-label="Slide 6"></button>
+      <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="6"
+        aria-label="Slide 1"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/1685623963_1680x320.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/1685639600_1680x320.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/1685875355_Smart_Televisions__Desktop.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/1686072293_Redmi_Smartphones_desktop.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/1686072625_Best_Sellers_in_Furniture_1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/1686153634_Just_Launched_Desktop.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <img style="margin-bottom: 5px;" src="./assets/1686170725_Drinks_desktop.jpg" class="d-block w-100" alt="...">
+
+
+
+  <!-- middle page ends -->
+
+  <!-- third page starts -->
+
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" style="margin-top: 10px;">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="1500">
+        <div id="second">
+          <div class="second"><img style="height: 150px;width: 755px;" src="./assets/n1.avif" alt=""></div>
+          <div class="second"><img style="height: 150px;width: 760px;" src="./assets/n2.avif" alt=""></div>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="1500">
+        <div id="second">
+          <div class="second"><img style="height: 150px;width: 755px;" src="./assets/n3.webp" alt=""></div>
+          <div class="second"><img style="height: 150px;width: 760px;" src="./assets/n4" alt=""></div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- third page ends -->
+
+  <!-- fourth page starts -->
+
+
+  <div id="carouselExampleInterval" class="carousel slide as" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+
+        <div id="cards">
+          <div class="card" style="border: none;">
+            <img src="./assets/1683560800_Moto_G42__10_percent.jpg" class="card-img-top" alt="...">
+          </div>
+
+          <div class="card" style="border: none;">
+            <img src="./assets/c1" class="card-img-top" alt="...">
+          </div>
+
+          <div class="card" style="border: none;">
+            <img src="./assets/c2" class="card-img-top" alt="...">
+          </div>
+
+          <div class="card" style="border: none;">
+            <img src="./assets/c3" class="card-img-top" alt="...">
+          </div>
+
+          <div class="card" style="border: none;">
+            <img src="./assets/c4" class="card-img-top" alt="...">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+
+        <div id="cards">
+          <div class="card" style="border: none;">
+            <img src="./assets/c5" class="card-img-top" alt="...">
+          </div>
+
+          <div class="card" style="border: none;">
+            <img src="./assets/c6" class="card-img-top" alt="...">
+          </div>
+
+          <div class="card" style="border: none;">
+            <img src="./assets/c7" class="card-img-top" alt="...">
+          </div>
+
+          <div class="card" style="border: none;">
+            <img src="./assets/c8" class="card-img-top" alt="...">
+          </div>
+
+          <div class="card" style="border: none;">
+            <img src="./assets/c9" class="card-img-top" alt="...">
+          </div>
+
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <img src="./assets/1686072343_Footwear_2.jpg" class="d-block w-100" alt="..." style="margin-top: 20px;">
+
+
+    <!-- fourth page ends -->
+
+    <!-- fifth page starts -->
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" style="margin-top: 10px;">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="1500">
+          <div id="second">
+            <div class="second"><img style="height: 150px;width: 755px;" src="./assets/a1" alt=""></div>
+            <div class="second"><img style="height: 150px;width: 760px;" src="./assets/a2" alt=""></div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1500">
+          <div id="second">
+            <div class="second"><img style="height: 150px;width: 755px;" src="./assets/a3" alt=""></div>
+            <div class="second"><img style="height: 150px;width: 760px;" src="./assets/a4" alt=""></div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- fifth page ends -->
+
+
+    <!-- sixth page starts -->
+
+
+    <div id="carouselExampleInterval" class="carousel slide as" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+
+          <div id="cards">
+            <div class="card" style="border: none;">
+              <img src="./assets/s1" class="card-img-top" alt="...">
+            </div>
+
+            <div class="card" style="border: none;">
+              <img src="./assets/s2" class="card-img-top" alt="...">
+            </div>
+
+            <div class="card" style="border: none;">
+              <img src="./assets/s3" class="card-img-top" alt="...">
+            </div>
+
+            <div class="card" style="border: none;">
+              <img src="./assets/s4" class="card-img-top" alt="...">
+            </div>
+
+            <div class="card" style="border: none;">
+              <img src="./assets/s5" class="card-img-top" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+
+          <div id="cards">
+            <div class="card" style="border: none;">
+              <img src="./assets/s6" class="card-img-top" alt="...">
+            </div>
+
+            <div class="card" style="border: none;">
+              <img src="./assets/s1" class="card-img-top" alt="...">
+            </div>
+
+            <div class="card" style="border: none;">
+              <img src="./assets/s2" class="card-img-top" alt="...">
+            </div>
+
+            <div class="card" style="border: none;">
+              <img src="./assets/s5" class="card-img-top" alt="...">
+            </div>
+
+            <div class="card" style="border: none;">
+              <img src="./assets/s4" class="card-img-top" alt="...">
+            </div>
+
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- sixth page ends -->
+
+      <!-- last page starts -->
+      <div id="third" style="width: 100%;">
+        <div class="third" style="height: 80px;width: 100%;"><img
+            style="height: 80px;width: inherit; padding-left: 5px;" src="./assets/t1" alt=""></div>
+        <div class="third" style="height: 80px;width: 100%;"><img
+            style="height: 80px;width:inherit ; padding-left: 5px;" src="./assets/t2" alt=""></div>
+        <div class="third" style="height: 80px;width: 100%;"><img
+            style="height: 80px;width: inherit; padding-left: 5px;" src="./assets/u1" alt=""></div>
+        <div class="third" style="height: 80px;width: 100%;"><img
+            style="height: 80px;width:inherit ; padding-left: 5px;" src="./assets/u" alt=""></div>
+
+      </div>
+
+      <!-- last page ends -->
+
+      <!-- footer starts -->
+
+      <footer class="container-fluid" style="background-color:rgb(240, 239, 239);">
+
+        <div class="row">
+          <div class="col-4 col-md-4 col-lg-2 ul">
+            <h5>All Categories</h5>
+            <ul class="u1">
+              <li><a href="#">Grocery</a></li>
+              <li><a href="#">Electronics</a></li>
+              <li><a href="#">Fashion</a></li>
+              <li><a href="#">Beauty</a></li>
+              <li><a href="#">Home & Kitchen</a></li>
+              <li><a href="#">Premium Fruits</a></li>
+              <li><a href="#">Books</a></li>
+              <li><a href="#">Furniture</a></li>
+            </ul>
+          </div>
+          <div class="col-4 col-md-4 col-lg-2 ul">
+            <h5>Popular Categories</h5>
+            <ul class="u1">
+              <li><a href="#">Staples</a></li>
+              <li><a href="#">Beverages</a></li>
+              <li><a href="#">Personal Care</a></li>
+              <li><a href="#">Home Care</a></li>
+              <li><a href="#">Fruits & Vegetables</a></li>
+              <li><a href="#">Baby Care</a></li>
+              <li><a href="#">Snacks & Branded Foods</a></li>
+              <li><a href="#">Dairy & Bakery</a></li>
+            </ul>
+          </div>
+          <div class="col-4 col-md-4 col-lg-2 ul">
+            <h5>Customer Account</h5>
+            <ul class="u1">
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">My Order</a></li>
+              <li><a href="#">Wishlist</a></li>
+              <li><a href="#">Payment Methods</a></li>
+              <li><a href="#">Delivery Addresses</a></li>
+              <li><a href="#">JioMart Wallet</a></li>
+            </ul>
+          </div>
+          <div class="col-4 col-md-4 col-lg-6" style="width:650px;">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-6 ul">
+                  <h5>Help & Support</h5>
+                  <ul class="u1">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">E-waste Policy</a></li>
+                    <li><a href="#">Cancellation & Return Policy</a></li>
+                    <li><a href="#">Shipping & Delivery Policy</a></li>
+                    <li><a href="#">AC Instasllation by resQ</a></li>
+                  </ul>
+                </div>
+                <div class="col-6">
+                  <h2>Contact Us</h2>
+                  <ul class="u1">
+                    <li>
+                      <!-- style="color: #0c5273; -->
+                      <p >WhatsApp us: <a href="#"><span>70003 70003</span></a><br>Call us: <a href="#"><span>1800 890 1222</span></a><br> 8:00 AM to 8:00 PM, 365days</p>
+                    </li>
+                    <li><p>Please note that you are accessing the BETA version of <a href="#""><span>JioMart.com</span></a></p></li>
+                    <li><p> Should you encounter any bugs, glitches, lack <br>of functionality, delayed deliveries, billing <br> errors or other problems on beta website, <br> please email us on <a href="#"><span>cs@jiomart.com</span></a> </p> </li>
+                    <li><h2>Download the app</h2>
+                      <img src="./assets/google-play-icon.svg" alt="">
+                      <img src="./assets/ios_app_icon.svg" alt="">
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+      <script src="./index.js"></script>
+</body>
+
+</html>
